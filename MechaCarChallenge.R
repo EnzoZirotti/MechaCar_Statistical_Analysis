@@ -53,11 +53,11 @@ subset(SuspensionTable, Manufacturing_Lot = "Lot1", select = "PSI")
 
 #t.test(subset(SuspensionTable, Manufacturing_Lot = "Lot1", select = "PSI"), mu=1500)
 
-t.test(subset(SuspensionTable, Manufacturing_Lot = "Lot1")$PSI, mu=1500)
+t.test(subset(SuspensionTable, Manufacturing_Lot == "Lot1")$PSI, mu=1500)
 
-t.test(subset(SuspensionTable, Manufacturing_Lot = "Lot2")$PSI, mu=1500)
+t.test(subset(SuspensionTable, Manufacturing_Lot == "Lot2")$PSI, mu=1500)
 
-t.test(subset(SuspensionTable, Manufacturing_Lot = "Lot3")$PSI, mu=1500)
+t.test(subset(SuspensionTable, Manufacturing_Lot == "Lot3")$PSI, mu=1500)
 
 
 
