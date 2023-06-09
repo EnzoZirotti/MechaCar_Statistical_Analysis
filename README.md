@@ -23,7 +23,7 @@ For the total it does meet design specification however with each lot seperately
 
   - In the total PSI suspension table that we cannont reject the null for Lot1 and Lot2 because the p-value for both are above 0.05 which means that nothing significant is affecting this. As for Lot3 it has a p-value of .04168 so we can reject the null since something is affecting this.
 
-![Screenshot](ttest.PNG)
+![Screenshot](psi_total_ttest.PNG)
 
 
 ## Study Design: MechaCar vs Competition
